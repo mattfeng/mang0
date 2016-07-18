@@ -1,0 +1,14 @@
+~ be sure the end the dist variable with a / (slash)
+
+dist="/home/pwn/mang0/profiles/booter1/high/"
+dist-name="UDP DNS Reflection Attack, Anon Booter 1"
+
+~ high is the distribution for "high activity"
+~ high is cluster 1 in the real data
+~ high has 340 source IP addresses
+~ take the source IP addresses without obfuscating
+
+~ don't generate a response
+generate-response=0
+
+
