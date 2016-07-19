@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25b8f2db-21b1-4bf4-8cd1-f0d9559c1da8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/booter1/high/dur/0.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/booter1/high/dur/0/99quantile.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/booter1/high/dur/updates.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/booter1/high/fps/ts0/ts0.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/booter1/high/fps/ts0/ts0.vars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/booter1/high/fps/ts0/variation/0.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/booter1/high/fps/ts0/variation/22.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/booter1/high/fps/ts0/variation/98.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simulator/test/icmp/icmp_ping_flood.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simulator/test/icmp/icmpanalysis.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simulator/test/ts/timeseries.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/profiles/booter1/high/fps/old/0.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/profiles/booter1/high/fps/old/22.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/profiles/booter1/high/fps/old/98.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/profiles/booter1/high/fps/old/updates.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/profiles/booter1/high/fps/variation.dist" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/booter1/high/fps/updates.dist" afterPath="$PROJECT_DIR$/profiles/booter1/high/fps/updates.dist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulator/export/textexporter.py" afterPath="$PROJECT_DIR$/simulator/export/textexporter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulator/generate/distribution.py" afterPath="$PROJECT_DIR$/simulator/generate/distribution.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulator/test/fps/analysis.py" afterPath="$PROJECT_DIR$/simulator/test/fps/analysis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulator/test/fps/udp_dns_flood.py" afterPath="$PROJECT_DIR$/simulator/test/fps/udp_dns_flood.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulator/test/fps/udpdnssim.csv" afterPath="$PROJECT_DIR$/simulator/test/fps/udpdnssim.csv" />
     </list>
     <ignored path="mang0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="icmp_ping_flood.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="icmp_ping_flood.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simulator/test/icmp/icmp_ping_flood.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -68,6 +47,16 @@
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/profiles/booter1/high/dp/updates.dist" />
         <option value="$PROJECT_DIR$/profiles/booter1/high/dip/updates.dist" />
         <option value="$PROJECT_DIR$/profiles/booter1/high/dip/0.dist" />
         <option value="$PROJECT_DIR$/profiles/booter1/high/sp/updates.dist" />
@@ -210,6 +198,7 @@
         <option value="$PROJECT_DIR$/simulator/export/exporter.py" />
         <option value="$PROJECT_DIR$/simulator/export/textexporter.py" />
         <option value="$PROJECT_DIR$/simulator/test/icmp/icmp_ping_flood.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -912,14 +901,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/profiles/booter1/high/proto/updates.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profiles/booter1/high/proto/0.dist">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
@@ -1345,6 +1326,14 @@
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
