@@ -6,5 +6,5 @@ class TextExporter(Exporter):
         super(TextExporter, self).__init__('txt')
 
     def process_flow(self, flow):
-        return str(flow)
+        return str(flow) + '\n'
 

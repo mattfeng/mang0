@@ -21,13 +21,15 @@ sipps = {}          # GOOD
 pps = {}            # GOOD
 bps = {}            # GOOD
 ppf = {}            # GOOD, COULD BE IMPROVED
+dur = udp.dur
+
 
 features = {'fps'       :fps,
             'bpp'       :bpp,
             'sipps'     :sipps,
             'pps'       :pps,
             'bps'       :bps,
-            'ppf'       :ppf
+            'ppf'       :ppf,
             }
 
 def f(feature):

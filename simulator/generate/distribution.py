@@ -53,7 +53,7 @@ def cdf_from_file(filename):
         for line in f.readlines():
             line = line.strip().split(' ')
             value, prob = line[0], float(line[1])
-            if line[0].endswith('.txt'):
+            if line[0].endswith('.dist'):
                 value = cdf_from_file(parent_dir + value)
             keys.append(value)
             probs.append(prob)

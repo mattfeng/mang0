@@ -77,8 +77,12 @@ def make_flows(env):
     sipps_feature = Feature('sipps', '/home/pwn/mang0/profiles/booter1/high/sipps/',
                               'Number of Unique Source IPs')
 
+    dur_feature = Feature('dur', '/home/pwn/mang0/profiles/booter1/high/dur/',
+                          'Flow Duration')
+
     feature_set = [bpp_feature,
-                   sipps_feature]
+                   sipps_feature,
+                   dur_feature]
 
     while True:
         for feature in feature_set:
@@ -110,7 +114,7 @@ def make_flows(env):
 
         for i in range(nflows):
             stime = env.now + np.around(np.random.uniform(0.001, INTERVAL), 3)
-            dur = 0
+            dur = np.around(next(dur_feature.generator), 3)
             proto = 17
             sip = rnd.choice(sips_to_choose_from)
             sp = 53
